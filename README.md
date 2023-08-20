@@ -44,6 +44,8 @@ providers:
       port: 8081
       # The api key that grans access (required, example is using an env var)
       api_key: env/POWERDNS_API_KEY
+      # Whether to request sending notification to secondaries after changes (optional, default no)
+      notify: yes
 ```
 
 ### Support Information
